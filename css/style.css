@@ -17,6 +17,18 @@ font-family: 'Ubuntu', sans-serif;
 .text-primary{
     color:#FFA500 ;
 }
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
 
 
 
@@ -59,15 +71,49 @@ nav a{
 }
 .header{
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 /* banner */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+   
+   
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner img{
     width: 400px;
+   
+
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner .p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding: 0px 0px 0px 15px ;
+    
+}
+/* about */
+.about{
+    background: #FFF8F3;
+    margin: 130px 0;
+    padding: 130px;
+    border-radius: 10px;
 }
