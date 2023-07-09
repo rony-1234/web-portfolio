@@ -1,8 +1,7 @@
-/* common shared css */
+/* common shared css*/
 *{
     margin: 0;
     padding: 0;
-    outline: none;
 }
 body{
 font-family: 'Fira Sans', sans-serif;
@@ -42,9 +41,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+     margin: 0 200px;
     padding: 30px 10px;
-}
+} 
 nav > ul{
     display: flex;
     align-items: center;
@@ -73,9 +72,9 @@ nav a{
 }
 .header{
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left ;
     
 }
 /* main */
