@@ -172,7 +172,36 @@ border-radius: 5px;
 
 
 }
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description,.resume-item-institute{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume-item-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+.resume-container hr{
+    margin: 30px;
+}
+ .download-cv{
+    margin-top: 50px;
+    text-align: center;
     
+}
 
 
 
