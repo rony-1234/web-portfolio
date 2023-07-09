@@ -155,6 +155,9 @@ border-radius: 5px;
 
 
 }
+.skil > img{
+    padding: 30px 20px;
+}
 /* .skill img{
     padding: 30px 190px 30px 20px;
 }  */
